@@ -1,0 +1,115 @@
+/* styles.css */
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-bottom: 60px; /* Adjust margin to make space for the button */
+}
+
+.section {
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.shape {
+    width: 80px; /* Reduced size */
+    height: 80px; /* Reduced size */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+.oval {
+    border-radius: 50%;
+    background-color: #ff6347;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent; /* Reduced size */
+    border-right: 40px solid transparent; /* Reduced size */
+    border-bottom: 80px solid #4682b4; /* Reduced size */
+}
+
+.rectangle {
+    background-color: #32cd32;
+    width: 80px; /* Reduced size */
+    height: 40px; /* Reduced size */
+}
+
+.diamond {
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent; /* Reduced size */
+    border-right: 40px solid transparent; /* Reduced size */
+    border-bottom: 56px solid #ff69b4; /* Reduced size */
+    transform: rotate(45deg);
+}
+
+.pentagon {
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent; /* Reduced size */
+    border-right: 40px solid transparent; /* Reduced size */
+    border-bottom: 80px solid #ff4500; /* Reduced size */
+    position: relative;
+    transform: rotate(54deg);
+}
+
+.pentagon::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -40px;
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent; /* Reduced size */
+    border-right: 40px solid transparent; /* Reduced size */
+    border-bottom: 80px solid #ff4500; /* Reduced size */
+    transform: rotate(-108deg);
+}
+
+.hexagon {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent; /* Reduced size */
+    border-right: 50px solid transparent; /* Reduced size */
+    border-bottom: 30px solid #20b2aa; /* Reduced size */
+    position: relative;
+    transform: rotate(120deg);
+}
+
+.hexagon::before {
+    content: '';
+    position: absolute;
+    top: -30px;
+    left: -50px;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent; /* Reduced size */
+    border-right: 50px solid transparent; /* Reduced size */
+    border-top: 30px solid #20b2aa; /* Reduced size */
+    transform: rotate(60deg);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 20px; /* Position button at the bottom */
+}
+
+button:hover {
+    background-color: #0056b3;
+}

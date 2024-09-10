@@ -1,0 +1,91 @@
+* 
+{
+    font-family: "Itim", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+#normal
+{
+    position: absolute;
+    top: 700px;
+    left: 550px;
+    border: none;
+    border-radius: 20px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    transition-duration: 0.4s;
+    background-color: rgb(227, 198, 168);
+}
+
+#normal:hover
+{
+    background-color: rgb(255, 243, 222); 
+    color: black;
+}
+
+#shuffled
+{
+    position: absolute;
+    top: 700px;
+    left: 800px;
+    border: none;
+    border-radius: 20px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    transition-duration: 0.4s;
+    background-color: rgb(209, 168, 227); 
+}
+
+#shuffled:hover
+{
+    background-color: rgb(245, 222, 255); 
+    color: black;
+}
+
+/* css below are for the javascript-instantiated buttons */
+.normal
+{
+    position: absolute;
+    border: none;
+    border-radius: 20px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    transition-duration: 0.4s;
+    background-color: rgb(227, 198, 168);
+}
+
+.normal:hover
+{
+    background-color: rgb(255, 243, 222); 
+    color: black;
+}
+
+.shuffled
+{
+    position: absolute;
+    border: none;
+    border-radius: 20px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    transition-duration: 0.4s;
+    background-color: rgb(209, 168, 227); 
+}
+
+.shuffled:hover
+{
+    background-color: rgb(245, 222, 255); 
+    color: black;
+}

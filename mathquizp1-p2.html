@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlayPals</title>
+    <link rel="stylesheet" href="styles.css" >
+    <link rel="stylesheet" href="mathstyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <script src="p1-p2mathscript.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="buttons">
+            <a href="index.html">
+                <button class="logo-button">
+                    <img src="svgs/logo.svg" alt="Logo">
+                </button>
+            </a>
+        </div>
+        <div class="buttons">
+            <a href="k1-k2.html">
+            <button class="cloud-button">
+                <img src="svgs/cloud.svg" alt="Cloud">
+            </button>
+            </a>
+            <a href="p1-p2.html">
+            <button class="fish-button">
+                <img src="svgs/fish.svg" alt="Fish">
+            </button>
+            </a>
+            <a href="p3.html">
+            <button class="planet-button">
+                <img src="svgs/planet.svg" alt="Planet">
+            </button>
+            </a>
+        </div>
+        <!-- Navigation menu can be added here -->
+    </header>
+    <h1>P1-P2 Math Quiz</h1>
+
+    <div class="canvas-wrapper">
+    <div class="container">
+        <h1>
+            Math Games!
+        </h1>
+        <p id="problem"></p>
+        <div class="options" id="options"></div>
+        <p id="result"></p>
+        <p class="score">
+            Score: 
+            <span id="currentScore">0</span>
+        </p>
+        <p id="timer">
+            Time remaining: 
+            <span id="time">-</span> 
+            seconds
+        </p>
+        <div id="levelSelection">
+            <button onclick="startGame(1)">Easy</button>
+            <button onclick="startGame(2)">Medium</button>
+            <button onclick="startGame(3)">Hard</button>
+        </div>
+        <button onclick="resetGame()">
+            Reset Game
+        </button>
+        <p id="highScore">
+            High Score: 
+            <span id="highScoreCount">0</span>
+        </p>
+    </div>
+    </div>
+
+
+    <audio id="clickSound" src="mathsounds/Click.mp3"></audio>
+    <audio id="correctSound" src="mathsounds/Correct.mp3"></audio>
+    <audio id="incorrectSound" src="mathsounds/Wrong.mp3"></audio>
+    
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 PlayPals. All Rights Reserved.</p>
+            <div class="social-media-icons">
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

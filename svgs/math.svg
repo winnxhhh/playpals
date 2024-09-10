@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="80mm"
+   height="80mm"
+   viewBox="0 0 183 217"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="layer1">
+    <rect
+       style="fill:#2b0000;stroke-width:0.264583"
+       id="rect1"
+       width="135.77808"
+       height="5.6106648"
+       x="19.076263"
+       y="103.23623"
+       ry="2.8053324" />
+    <rect
+       style="fill:#2b0000;stroke-width:0.264583"
+       id="rect2"
+       width="6.171731"
+       height="165.5146"
+       x="83.5989"
+       y="28.614389"
+       ry="2.8053324" />
+    <rect
+       style="fill:#00ffff;stroke-width:0.210389"
+       id="rect3"
+       width="63.400505"
+       height="11.782394"
+       x="106.60263"
+       y="52.17918"
+       ry="0" />
+    <rect
+       style="fill:#ff0000;stroke-width:0.334877"
+       id="rect4"
+       width="10.099195"
+       height="61.717304"
+       x="38.713585"
+       y="21.320524" />
+    <rect
+       style="fill:#ff0000;stroke-width:0.305763"
+       id="rect5"
+       width="54.423439"
+       height="10.660262"
+       x="16.831993"
+       y="45.446377" />
+    <circle
+       style="fill:#ff6600;stroke-width:0.302381"
+       id="path5"
+       cx="44.324242"
+       cy="129.04527"
+       r="6.7327971" />
+    <ellipse
+       style="fill:#ff6600;stroke-width:0.308616"
+       id="path5-5"
+       cx="44.283936"
+       cy="172.0786"
+       rx="7.0133305"
+       ry="6.7327976" />
+    <rect
+       style="fill:#ff6600;stroke-width:0.286751"
+       id="rect6"
+       width="51.057049"
+       height="10.660262"
+       x="19.076256"
+       y="144.19406" />
+    <rect
+       style="fill:#008000;stroke-width:0.264583"
+       id="rect7"
+       width="61.717308"
+       height="8.9770632"
+       x="-46.298508"
+       y="196.35657"
+       transform="rotate(-44.651034)" />
+    <rect
+       style="fill:#008000;stroke-width:0.264583"
+       id="rect7-3"
+       width="61.717308"
+       height="8.9770632"
+       x="170.71928"
+       y="2.1963427"
+       transform="rotate(47.727648)" />
+  </g>
+</svg>

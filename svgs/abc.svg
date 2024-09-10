@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="160mm"
+   height="165mm"
+   viewBox="0 0 160 165"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <rect
+       x="255.28194"
+       y="382.92291"
+       width="150.50204"
+       height="74.298477"
+       id="rect2" />
+  </defs>
+  <g
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:77.6111px;font-family:Baskerville;-inkscape-font-specification:'Baskerville, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#fa0c4f;fill-opacity:1;stroke-width:1.51012"
+       x="31.582672"
+       y="62.314034"
+       id="text3"
+       transform="scale(0.98900406,1.0111182)"><tspan
+         id="tspan3"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:77.6111px;font-family:Baskerville;-inkscape-font-specification:'Baskerville, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#fa0c4f;fill-opacity:1;stroke-width:1.51012"
+         x="31.582672"
+         y="62.314034">A</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:77.6111px;font-family:Baskerville;-inkscape-font-specification:'Baskerville, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#f0f02f;fill-opacity:1;stroke-width:1.55826"
+       x="71.81218"
+       y="116.71053"
+       id="text4"
+       transform="scale(1.113189,0.89832005)"><tspan
+         id="tspan4"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:77.6111px;font-family:Baskerville;-inkscape-font-specification:'Baskerville, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f0f02f;fill-opacity:1;stroke-width:1.55826"
+         x="71.81218"
+         y="116.71053">B</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:77.6111px;font-family:Baskerville;-inkscape-font-specification:'Baskerville, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#58cf0a;fill-opacity:1;stroke-width:1.42045"
+       x="114.28785"
+       y="150.87262"
+       id="text5"
+       transform="scale(1.0307471,0.97017008)"><tspan
+         id="tspan5"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:77.6111px;font-family:Baskerville;-inkscape-font-specification:'Baskerville, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#58cf0a;fill-opacity:1;stroke-width:1.42045"
+         x="114.28785"
+         y="150.87262">C</tspan></text>
+  </g>
+</svg>

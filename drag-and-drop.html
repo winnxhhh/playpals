@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlayPals</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+      h2{
+          text-align: center;
+          font-size: 50px;
+          color: #dc58b2;
+        }
+
+      .arrow-container {
+        display: flex;
+        justify-content: space-between;
+        /* Space out arrows */
+        align-items: center;
+        width: 300px;
+        /* Adjust container width as needed */
+        margin: 50px auto;
+        /* Center the container */
+      }
+
+      .arrow {
+        width: 0;
+        height: 0;
+        border: 15px solid transparent;
+        /* Arrow size */
+        transition: border-color 0.3s ease;
+        /* Smooth color transition */
+      }
+
+      .arrow-prev {
+        border-right-color: #007BFF;
+        /* Left-pointing arrow color */
+      }
+
+      .arrow-next {
+        border-left-color: #007BFF;
+        /* Right-pointing arrow color */
+      }
+
+      .arrow:hover {
+        border-color: #0056b3 transparent;
+        /* Color on hover */
+      }
+
+      .arrow-container a {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="buttons">
+        <a href="index.html">
+          <button class="logo-button">
+            <img src="svgs/logo.svg" alt="Logo">
+          </button>
+        </a>
+      </div>
+      <div class="buttons">
+        <a href="k1-k2.html">
+          <button class="cloud-button">
+            <img src="svgs/cloud.svg" alt="Cloud">
+          </button>
+        </a>
+        <a href="p1-p2.html">
+          <button class="fish-button">
+            <img src="svgs/fish.svg" alt="Fish">
+          </button>
+        </a>
+        <a href="p3.html">
+          <button class="planet-button">
+            <img src="svgs/planet.svg" alt="Planet">
+          </button>
+        </a>
+      </div>
+      <!-- Navigation menu can be added here -->
+    </header>
+    <h1>Shape Matching</h1>
+    <h2>Level 3: Drag and Drop the matching Shapes</h2>
+    <div class="canvas-wrapper">
+      <main class="main">
+        <div class="container">
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+          <script src="drag-and-drop/script.js"></script>
+        </div>
+        <div class="arrow-container">
+          <a href="shape-identity.html">
+            <div class="arrow arrow-prev"></div>
+          </a>
+          <a href="object.html">
+            <div class="arrow arrow-next"></div>
+          </a>
+        </div>
+      </main>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+    </div>
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2024 PlayPals. All Rights Reserved.</p>
+        <div class="social-media-icons">
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

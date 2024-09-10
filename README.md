@@ -1,4 +1,4 @@
-# Playpals, an education gaming website for children aged 5 - 12 years' old
+# Playpals, an educational gaming website for children aged 5 - 12 years' old
 
 welcome to playpals! this was a final group project where we made an educational game website for children. we applied agile methodologies such as the kanban method in working on this. this was made in September 2024. 
 
